@@ -31,7 +31,7 @@ body{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    line-height: 1.5;
+    line-height: normal;
     /*font-family: 'Cormorant', serif;*/
     position: relative;
 
@@ -135,13 +135,11 @@ body{
     font-size: 24px;
     margin-bottom: 48px;
     max-width: 560px;
-    line-height: normal;
 }
 .blockquote__text{
     font-family: 'Cormorant', serif;
     text-align: center;
     font-size: 40px;
-    line-height: normal;
     max-width: 704px;
     font-style: italic;
     margin: 150px auto;
@@ -196,9 +194,77 @@ body{
     display: flex;
 }
 
+.main-blog{
+    padding: 150px 0;
+}
+.main-blog__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px 58px ;
 
 
+}
+.main-blog__item{
+    flex-basis: 542px;
+    display: flex;
+    gap: 0 20px;
 
+}
+.main-blog__item-title{
+    font-family: "Cormorant",serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    min-height: 86px;
+
+}
+.main-blog__item-link{
+    font-size: 13px;
+    margin-top: auto;
+    position: relative;
+
+}
+.main-blog__item-img{
+
+}
+.main-blog__item-author{
+    font-size: 13px;
+
+}
+.main-blog__item-content{
+    display: flex;
+    flex-direction: column;
+
+}
+.main-blog__item-link::after{
+    content: '';
+    background-image: url("../images/icon.svg");
+    width: 5px;
+    height: 10px;
+    margin-left: 8px;
+    position: absolute;
+    bottom: 1px;
+
+}
+.main-blog__link{
+    padding: 12px 41px;
+    display: flex;
+    justify-content: center;
+    margin: 72px auto 0;
+    border: 1px solid #151618;
+    width: 150px;
+}
+.mailing-list{
+    padding: 100px 0;
+    background-color: #F7F2EA;
+    background-image: url("../images/milingTea.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.mailing-list__title{
+    text-align: left;
+}
 
 
 
@@ -346,7 +412,6 @@ body{
     }
     .top__title{
         font-size: 40px;
-        line-height: normal;
 
     }
     .blockquote__text{
