@@ -265,7 +265,79 @@ body{
 .mailing-list__title{
     text-align: left;
 }
+.mailing-list__inner{
+    display: flex;
+    gap:60px 40px;
 
+}
+.mailing-list__text{
+    line-height: 1.5;
+    flex-basis: 580px;
+
+
+}
+.mailing-list__form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 580px;
+
+}
+.mailing-list__email{
+    border: none;
+    border-bottom: 1px solid #B8B58B;
+    background-color: transparent;
+    padding: 3px 15px;
+    width: 438px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    color: #151618;
+}
+.mailing-list__email::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5;
+    color: #B8B58B;
+
+}
+.mailing-list__btn{
+    padding: 12px 40px;
+    background-color: #fff;
+    border: 1px solid #151618;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Open Sans" ,sans-serif;
+    cursor: pointer;
+}
+.mailing-list__checkbox-text{
+    font-size: 13px;
+    padding-left: 20px;
+
+}
+.mailing-list__label{
+    margin-top: 16px;
+
+
+}
+.mailing-list__checkbox{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0,0,0,0);
+    overflow: hidden;
+    padding-left: 20px;
+}
+.mailing-list__checkbox-style{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #151618;
+    margin-top: 5px;
+
+}
 
 
 
