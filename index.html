@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="menu--close"></div>
 <header class="header">
     <div class="container">
         <div class="header__inner">
@@ -27,7 +28,12 @@
                     <span></span>
                     <span></span>
                 </button>
-                <ul class="menu__list">
+                <ul class="menu__list ">
+                    <li class="menu__close">
+                        <button class="menu__close-btn">
+                            <img src="images/close.svg" alt="">
+                        </button>
+                    </li>
                     <li class="menu__item">
                         <a href="#" class="menu__link">Black</a>
                     </li>
@@ -42,6 +48,37 @@
                     </li>
                     <li class="menu__item">
                         <a href="#" class="menu__link">Pu-erh</a>
+                    </li>
+                    <li class="mobile-nav">
+                        <ul class="mobile-menu">
+                            <li class="mobile-menu__item">
+                                <a href="#" class="mobile-menu-link">Contact us</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#" class="mobile-menu-link">Our blog</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a href="#" class="mobile-menu-link">Shipping and Delivery</a>
+                            </li>
+                        </ul>
+                        <ul class="mobile-actions">
+
+                            <li class="mobile-actions__item">
+                                <a class="mobile-actions__link" href="#">
+                                    <img src="images/cart.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="mobile-actions__item">
+                                <a class="mobile-actions__link" href="#">
+                                    <img src="images/user.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="mobile-actions__item">
+                                <a class="mobile-actions__link" href="#">
+                                    <img src="images/search.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
@@ -91,6 +128,62 @@
             "Tea is not just a drink, it's a way of life and a way to connect with our loved ones."
         </p>
     </blockquote>
+    <section class="assortment">
+        <div class="container">
+            <h2 class="assortment__title title">Explore our Collections</h2>
+            <ul class="assortment__list">
+                <li class="assortment__item">
+                    <img src="images/black.jpg" alt="" class="assortment__img">
+                    <p class="assortment__name">Black</p>
+                </li>
+                <li class="assortment__item">
+                    <img src="images/green.png" alt="" class="assortment__img">
+                    <p class="assortment__name">Green</p>
+                </li>
+                <li class="assortment__item">
+                    <img src="images/white.png" alt="" class="assortment__img">
+                    <p class="assortment__name">White</p>
+                </li>
+                <li class="assortment__item">
+                    <img src="images/oolong.png" alt="" class="assortment__img">
+                    <p class="assortment__name">Oolong</p>
+                </li>
+                <li class="assortment__item">
+                    <img src="images/puer.png" alt="" class="assortment__img">
+                    <p class="assortment__name">Pu-erh</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="reviews">
+        <h2 class="title">What our Clients say</h2>
+        <ul class="reviews__list">
+            <li class="reviews__item">
+                <blockquote>
+                    <p class="reviews__text">"As a tea enthusiast, I have tried teas from all over the world, but this tea store truly stands out. Their teas are of the highest quality and the variety is impressive. This is definitely a tea store that every tea lover should visit."</p>
+                    <cite class="reviews__name">Alice</cite>
+                </blockquote>
+            </li>
+            <li class="reviews__item">
+                <blockquote>
+                    <p class="reviews__text">"This tea store is my go-to for all my tea needs. Their selection is unbeatable and the quality of their teas is exceptional."</p>
+                    <cite class="reviews__name">Mad-Hatter</cite>
+                </blockquote>
+            </li>
+            <li class="reviews__item">
+                <blockquote>
+                    <p class="reviews__text">"If you're a tea lover, you must visit this tea store. The selection is vast and the quality is outstanding. I guarantee you won't be disappointed."</p>
+                    <cite class="reviews__name">Dormouse</cite>
+                </blockquote>
+            </li>
+            <li class="reviews__item">
+                <blockquote>
+                    <p class="reviews__text">"I am not a big tea drinker, but this tea store has converted me. I highly recommend this tea store to anyone looking for a high-quality tea experience."</p>
+                    <cite class="reviews__name">March Hare</cite>
+                </blockquote>
+            </li>
+        </ul>
+    </section>
 </main>
 <footer class="footer">
 
