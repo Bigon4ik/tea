@@ -556,6 +556,21 @@ body{
     .prioritise__list{
         gap: 30px 210px;
     }
+    .footer__blockquote{
+        width: 270px;
+    }
+    .footer__blockquote-text{
+        margin-top: 0;
+    }
+    .footer__inner{
+        margin-bottom: 55px;
+    }
+    .footer__copy{
+        margin-right: 85px;
+    }
+    .footer__contacts {
+        width: 270px;
+    }
 
 
 }
@@ -662,6 +677,22 @@ body{
     .prioritise__list{
         gap: 30px 130px;
     }
+    .footer__inner{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(3,1fr);
+
+    }
+    .footer__products,
+    .footer__company{
+        grid-row: span 3;
+    }
+    .footer__contacts{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .footer__copy{
+        margin-right: 120px;
+    }
 
 }
 @media (max-width:680px){
@@ -731,84 +762,103 @@ body{
     .prioritise{
         padding: 50px 0;
     }
-
+    
 
 }
-@media (max-width:360px){
-    .logo{
+@media (max-width:360px) {
+    .logo {
         margin-right: 50px;
     }
-    .header__inner{
-       padding: 10px;
+
+    .header__inner {
+        padding: 10px;
     }
-    .user-actions__item-search{
+
+    .user-actions__item-search {
         margin-left: 0;
     }
-    .top__title{
+
+    .top__title {
         font-size: 24px;
         margin-bottom: 10px;
     }
-    .top__text{
+
+    .top__text {
         font-size: 13px;
         margin-bottom: 30px;
     }
-    .top__inner{
+
+    .top__inner {
         min-height: 367px;
     }
-    .blockquote__text{
-        font-size: 16px ;
+
+    .blockquote__text {
+        font-size: 16px;
         max-width: 340px;
         margin-top: 70px;
         margin-bottom: 80px;
     }
-    .assortment__img{
+
+    .assortment__img {
         width: 170px;
     }
-    .assortment{
+
+    .assortment {
         margin-bottom: 80px;
     }
-    .title{
+
+    .title {
         margin-bottom: 30px;
         font-size: 24px;
     }
+
     .reviews__item:last-child,
-    .reviews__item:first-child{
+    .reviews__item:first-child {
         display: none;
     }
-    .reviews__item{
+
+    .reviews__item {
         flex-basis: 100%;
     }
 
-    .main-blog{
+    .main-blog {
         padding: 50px 0;
 
     }
-    .main-blog__list{
+
+    .main-blog__list {
         justify-content: center;
     }
-    .main-blog__item{
+
+    .main-blog__item {
         display: block;
         max-width: 270px;
 
     }
-    .main-blog__item-img{
+
+    .main-blog__item-img {
         max-width: 100%;
 
     }
-    .main-blog__item-title{
+
+    .main-blog__item-title {
         min-height: auto;
     }
-    .mailing-list__email{
+
+    .mailing-list__email {
         width: 200px;
     }
-    .prioritise__title{
+
+    .prioritise__title {
         font-size: 20px;
     }
-    .prioritise__text{
+
+    .prioritise__text {
         font-size: 10px;
         font-weight: 400;
     }
-    .prioritise__list{
+
+    .prioritise__list {
         gap: 40px 100px;
     }
 
