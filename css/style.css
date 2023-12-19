@@ -414,10 +414,9 @@ body{
      font-size: 13px;
      margin-bottom: 20px;
  }
-.footer-nav{
+.footer__nav{
     display: flex;
     flex-wrap: wrap;
-
  }
 .footer__nav-logo{
     margin-right: 40px;
@@ -762,7 +761,50 @@ body{
     .prioritise{
         padding: 50px 0;
     }
-    
+    .footer__inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__blockquote{
+        width: 100%;
+    }
+    .footer__blockquote-text{
+        margin-bottom: 10px;
+        margin-top: 50px;
+
+    }
+    .footer__contacts{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .footer__contacts-title{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer__contacts-text{
+        text-align: center;
+    }
+    .footer__nav{
+        flex-wrap: nowrap;
+    }
+    .footer__social{
+        margin-left: 30px;
+    }
+    .footer__copy{
+        margin-right: auto;
+    }
+    .footer__products{
+        margin-right: auto;
+        padding-right: 20px;
+    }
+    .footer__company{
+        padding-right: 20px;
+        margin-right: 55px;
+    }
+    .footer{
+        padding: 50px 0 10px;
+    }
+
 
 }
 @media (max-width:360px) {
@@ -860,6 +902,19 @@ body{
 
     .prioritise__list {
         gap: 40px 100px;
+    }
+
+    .footer__company{
+        padding-right: 15px;
+        margin-right: 0;
+    }
+    .footer__nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__social{
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
